@@ -1,5 +1,5 @@
 > [!NOTE]
-> [`indexable-inc/plumb`](https://github.com/indexable-inc/plumb) is a read-only mirror, generated from [`packages/plumb/cli`](https://github.com/indexable-inc/index/tree/b66746ba8d381fd63cd1b1d38fd03c8bc25abb6c/packages/plumb/cli) in [`indexable-inc/index`](https://github.com/indexable-inc/index) at commit `b66746ba8d38`. The monorepo is the source of truth: please open issues and pull requests [there](https://github.com/indexable-inc/index). This mirror is regenerated automatically; anything pushed directly here will be overwritten.
+> [`indexable-inc/plumb`](https://github.com/indexable-inc/plumb) is a read-only mirror, generated from [`packages/plumb/cli`](https://github.com/indexable-inc/index/tree/5966f9c31ff91a3d9bf00d1172e33fc4ee23b29e/packages/plumb/cli) in [`indexable-inc/index`](https://github.com/indexable-inc/index) at commit `5966f9c31ff9`. The monorepo is the source of truth: please open issues and pull requests [there](https://github.com/indexable-inc/index). This mirror is regenerated automatically; anything pushed directly here will be overwritten.
 
 <p align="center"><img src="assets/hero.svg" width="760" alt="a typed pipeline decomposes into tee'd stages; the run becomes an addressable value whose streams feed a later command without re-running"></p>
 
@@ -30,6 +30,7 @@ Every run stays addressable:
 | `${o[7]}` / `${e[7]}` / `${s[7]}` | run 7's final stdout / stderr / status |
 | `${o[7][0]}` | what pipe stage 0 printed (exactly what stage 1 consumed) |
 | `${o[-1]}`, `${o[-1][-2]}` | negative indexes count back from the latest |
+| `${runs[7].stages[0].stdout}` | structured paths, field names matching the report JSON (`output`, `status`, `argv`, `duration_ms`, `stdout_bytes`, ...) |
 | `$o` / `$e` / `$s` | the last run's stdout / stderr / status |
 | `$?` | last status, as in bash |
 
