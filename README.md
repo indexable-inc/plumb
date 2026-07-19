@@ -1,5 +1,5 @@
 > [!NOTE]
-> [`indexable-inc/plumb`](https://github.com/indexable-inc/plumb) is a read-only mirror, generated from [`packages/plumb/cli`](https://github.com/indexable-inc/index/tree/0fc51135a9b85ffd1ee7f6f1ef594f20bf72b9d6/packages/plumb/cli) in [`indexable-inc/index`](https://github.com/indexable-inc/index) at commit `0fc51135a9b8`. The monorepo is the source of truth: please open issues and pull requests [there](https://github.com/indexable-inc/index). This mirror is regenerated automatically; anything pushed directly here will be overwritten.
+> [`indexable-inc/plumb`](https://github.com/indexable-inc/plumb) is a read-only mirror, generated from [`packages/plumb/cli`](https://github.com/indexable-inc/index/tree/abf5163409ea3ce6c81248db92a851dd993c6cbb/packages/plumb/cli) in [`indexable-inc/index`](https://github.com/indexable-inc/index) at commit `abf5163409ea`. The monorepo is the source of truth: please open issues and pull requests [there](https://github.com/indexable-inc/index). This mirror is regenerated automatically; anything pushed directly here will be overwritten.
 
 <p align="center"><img src="assets/hero.svg" width="760" alt="a typed pipeline decomposes into tee'd stages; the run becomes an addressable value whose streams feed a later command without re-running"></p>
 
