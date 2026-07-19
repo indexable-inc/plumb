@@ -6,6 +6,7 @@ All notable changes to `plumb`, derived mechanically from the [monorepo commits]
 
 ### Changed
 
+- readme: sweep dark hero twins repo-wide and lint the picture pattern ([`3caca1f`](https://github.com/indexable-inc/index/commit/3caca1fb9aaaeb5885082bb61e5687b5b72c9492), 2026-07-19)
 - plumb: agent-first README rewrite ([#3601](https://github.com/indexable-inc/index/issues/3601)) ([`0fc5113`](https://github.com/indexable-inc/index/commit/0fc51135a9b85ffd1ee7f6f1ef594f20bf72b9d6), 2026-07-18)
 - plumb: README demo needs no sh -c ([#3600](https://github.com/indexable-inc/index/issues/3600)) ([`d52979d`](https://github.com/indexable-inc/index/commit/d52979d1ee7c3fbfaa7ec7d0760037975aa34501), 2026-07-18)
 - plumb: per-stage wall timestamps and rusage cpu times ([#3596](https://github.com/indexable-inc/index/issues/3596)) ([`bcae85d`](https://github.com/indexable-inc/index/commit/bcae85dc40b9c9452827ec714188960efb4fa3d2), 2026-07-18)
