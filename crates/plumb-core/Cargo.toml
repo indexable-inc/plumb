@@ -1,0 +1,17 @@
+[package]
+name = "plumb-core"
+version = "0.1.0"
+edition = "2024"
+publish = false
+description = "libplumb: embeddable shell where every run is a value with per-stage capture and auto-bound variables"
+license = "MIT"
+
+[dependencies]
+plumb-syntax = { path = "../plumb-syntax" }
+serde = { version = "1", features = ["derive"] }
+snafu = "0.9"
+glob = "0.3"
+libc = "0.2"
+
+[dev-dependencies]
+serde_json = "1"

@@ -1,0 +1,10 @@
+[package]
+name = "plumb-syntax"
+version = "0.1.0"
+edition = "2024"
+publish = false
+description = "Lexer and parser for the plumb shell's bash-subset grammar: spanned AST, loud errors on unsupported bash"
+license = "MIT"
+
+[dependencies]
+snafu = "0.9"
