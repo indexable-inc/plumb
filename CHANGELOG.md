@@ -6,6 +6,7 @@ All notable changes to `plumb`, derived mechanically from the [monorepo commits]
 
 ### Changed
 
+- plumb: per-stage wall timestamps and rusage cpu times ([#3596](https://github.com/indexable-inc/index/issues/3596)) ([`bcae85d`](https://github.com/indexable-inc/index/commit/bcae85dc40b9c9452827ec714188960efb4fa3d2), 2026-07-18)
 - plumb: structured run paths ${runs\[N\].stages\[K\].field} ([#3595](https://github.com/indexable-inc/index/issues/3595)) ([`5966f9c`](https://github.com/indexable-inc/index/commit/5966f9c31ff91a3d9bf00d1172e33fc4ee23b29e), 2026-07-18)
 - plumb: array-style run references ${o\[N\]\[K\]}; hero redesign ([#3593](https://github.com/indexable-inc/index/issues/3593)) ([`b66746b`](https://github.com/indexable-inc/index/commit/b66746ba8d381fd63cd1b1d38fd03c8bc25abb6c), 2026-07-18)
 - plumb: inspectable bash-subset shell, library-first ([#3578](https://github.com/indexable-inc/index/issues/3578)) ([#3579](https://github.com/indexable-inc/index/issues/3579)) ([`8aec425`](https://github.com/indexable-inc/index/commit/8aec4254530619fb00c9cec244694c1d84dc844b), 2026-07-18)
