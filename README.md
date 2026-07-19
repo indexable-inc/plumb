@@ -1,5 +1,5 @@
 > [!NOTE]
-> [`indexable-inc/plumb`](https://github.com/indexable-inc/plumb) is a read-only mirror, generated from [`packages/plumb/cli`](https://github.com/indexable-inc/index/tree/bcae85dc40b9c9452827ec714188960efb4fa3d2/packages/plumb/cli) in [`indexable-inc/index`](https://github.com/indexable-inc/index) at commit `bcae85dc40b9`. The monorepo is the source of truth: please open issues and pull requests [there](https://github.com/indexable-inc/index). This mirror is regenerated automatically; anything pushed directly here will be overwritten.
+> [`indexable-inc/plumb`](https://github.com/indexable-inc/plumb) is a read-only mirror, generated from [`packages/plumb/cli`](https://github.com/indexable-inc/index/tree/d52979d1ee7c3fbfaa7ec7d0760037975aa34501/packages/plumb/cli) in [`indexable-inc/index`](https://github.com/indexable-inc/index) at commit `d52979d1ee7c`. The monorepo is the source of truth: please open issues and pull requests [there](https://github.com/indexable-inc/index). This mirror is regenerated automatically; anything pushed directly here will be overwritten.
 
 <p align="center"><img src="assets/hero.svg" width="760" alt="a typed pipeline decomposes into tee'd stages; the run becomes an addressable value whose streams feed a later command without re-running"></p>
 
@@ -12,14 +12,16 @@ The syntax is a strict bash subset: everything plumb accepts pastes into bash un
 ## Runs are values
 
 ```console
-plumb src> sh -c 'echo warn >&2; seq 1 10000' | tail -n 3
+plumb src> echo warn >&2; seq 1 10000 | tail -n 3
+warn
 9998
 9999
 10000
-[0] sh -c echo warn >&2; seq 1 10000  exit 0  11ms  out 48.9KB  err 5B
-[1] tail -n 3  exit 0  11ms  out 15B  err 0B
+[0] echo warn  exit 0  0ms (cpu 0+0ms)  out 0B  err 5B
+[1] seq 1 10000  exit 0  9ms (cpu 4+2ms)  out 47.7KB  err 0B
+[2] tail -n 3  exit 0  9ms (cpu 1+0ms)  out 16B  err 0B
 run 3: exit 0  ${o[3]} ${e[3]} ${s[3]}
-plumb src> echo ${o[3][0]} | head -n 1
+plumb src> echo ${o[3][1]} | head -n 1
 1
 ```
 
