@@ -1,5 +1,5 @@
 > [!NOTE]
-> [`indexable-inc/plumb`](https://github.com/indexable-inc/plumb) is a read-only mirror, generated from [`packages/plumb/cli`](https://github.com/indexable-inc/index/tree/61019e247abd298db285f2f95b06750b0d3c66d2/packages/plumb/cli) in [`indexable-inc/index`](https://github.com/indexable-inc/index) at commit `61019e247abd`. The monorepo is the source of truth: please open issues and pull requests [there](https://github.com/indexable-inc/index). This mirror is regenerated automatically; anything pushed directly here will be overwritten.
+> [`indexable-inc/plumb`](https://github.com/indexable-inc/plumb) is a read-only mirror, generated from [`packages/plumb/cli`](https://github.com/indexable-inc/index/tree/a9529ddeac6aae40a2c4092e3679fbfcac336577/packages/plumb/cli) in [`indexable-inc/index`](https://github.com/indexable-inc/index) at commit `a9529ddeac6a`. The monorepo is the source of truth: please open issues and pull requests [there](https://github.com/indexable-inc/index). This mirror is regenerated automatically; anything pushed directly here will be overwritten.
 
 <p align="center">
   <picture>
