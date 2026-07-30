@@ -1,5 +1,5 @@
 > [!NOTE]
-> [`indexable-inc/plumb`](https://github.com/indexable-inc/plumb) is a read-only mirror, generated from [`packages/plumb/cli`](https://github.com/indexable-inc/index/tree/02e98d12191f7c64e71cf6c2bd7c018ee50c4d2b/packages/plumb/cli) in [`indexable-inc/index`](https://github.com/indexable-inc/index) at commit `02e98d12191f`. The monorepo is the source of truth: please open issues and pull requests [there](https://github.com/indexable-inc/index). This mirror is regenerated automatically; anything pushed directly here will be overwritten.
+> [`indexable-inc/plumb`](https://github.com/indexable-inc/plumb) is a read-only mirror of [`packages/plumb/cli`](https://github.com/indexable-inc/index/tree/3caca1fb9aaaeb5885082bb61e5687b5b72c9492/packages/plumb/cli) in [`indexable-inc/index`](https://github.com/indexable-inc/index), taken at `3caca1fb9aaa`, the last monorepo commit that changed the package. A sha behind the monorepo's HEAD means the package has not changed since, not that the mirror is stale. The monorepo is the source of truth: please open issues and pull requests [there](https://github.com/indexable-inc/index). This mirror is regenerated automatically; anything pushed directly here will be overwritten.
 
 <p align="center">
   <picture>
